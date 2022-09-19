@@ -1,0 +1,274 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #e5e5e5;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+  width: 350px;
+  background: radial-gradient( circle, 
+  rgba(75, 120, 231, 1) 0%, 
+  rgb(49, 51, 49) 100% );
+}
+
+.cvphoto {
+  margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 4px solid rgba(75, 120, 231, 1)
+}
+
+.header-secondary {
+  color: white;
+  margin-bottom: 25px;
+}
+
+.contact-links {
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.list-secondary {
+  color: #fb6d3a;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 0;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+
+.list-secondary-item {
+  color: white;
+}
+
+.contact-block {
+  margin-top: 51px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.Tech-Skills-Block {
+  margin-top: 47px;
+  margin-left: 40px;
+}
+
+.Soft-Skills-Block {
+  margin-top: 47px;
+  margin-left: 40px;
+}
+
+main {
+  padding: 102px 88px 102px 88px;
+}
+
+.main-description {
+  width: 520px;
+}
+
+.job-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 55px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-bottom: 40px;
+}
+
+.projects {
+  width: 485px;
+  margin-bottom: 51px;
+}
+
+.list-primary {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+  padding-left: 20px;
+  list-style-position: inside;
+}
+
+.list-primary-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  text-decoration: none;
+}
+
+.header-primary {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 12px;
+}
+
+.job-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.highlight {
+  color: rgba(75, 120, 231, 1)
+}
+
+.job-date {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 8px;
+}
+
+.job-list {
+  width: 510px
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  padding-left: 0px;
+}
+
+.work-experience {
+  width: 525px;
+}
+
+.school-div {
+  margin-top: 51px;
+}
+
+.school-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.school-type {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 11px;
+}
+
+.school-date {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-top: 11px;
+}
+
+.profess-cover .prog-row div {
+  padding: 0px;
+}
+.progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: .75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.progress-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fb6d3a
+  text-align: center;
+  background-color: #fb6d3a;
+  transition: width .6s ease;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.link:link {
+  color: rgba(75, 120, 231, 1);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fb6d3a
+}
+
+.link:visited {
+  color: rgba(75, 120, 231, 1)
+}
+
+.link:hover {
+  color: #fb6d3a
+}
+
+
+.icon {
+  float: left; 
+  margin-right: 0px; 
+ }
+
+ .container {
+  display: flex;
+  align-items: center;
+  justify-content: left
+}
+
+img {
+  max-width: 100%
+}
+
+.image {
+  flex-basis: 15%
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
