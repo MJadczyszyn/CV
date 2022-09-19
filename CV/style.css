@@ -14,7 +14,7 @@ body {
 }
 
 aside {
-  width: 370px;
+  width: 350px;
   background: radial-gradient( circle, 
   rgba(75, 120, 231, 1) 0%, 
   rgb(49, 51, 49) 100% );
@@ -31,6 +31,7 @@ aside {
 
 .header-secondary {
   color: white;
+  margin-bottom: 25px;
 }
 
 .contact-links {
@@ -59,6 +60,7 @@ aside {
 .contact-block {
   margin-top: 51px;
   margin-left: 40px;
+  margin-bottom: 40px;
 }
 
 .Tech-Skills-Block {
@@ -87,7 +89,7 @@ main {
 
 h1 {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 35px;
   line-height: 55px;
 }
 
@@ -243,3 +245,30 @@ a:hover {
 .link:hover {
   color: #fb6d3a
 }
+
+
+.icon {
+  float: left; 
+  margin-right: 0px; 
+ }
+
+ .container {
+  display: flex;
+  align-items: center;
+  justify-content: left
+}
+
+img {
+  max-width: 100%
+}
+
+.image {
+  flex-basis: 15%
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
