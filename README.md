@@ -1,1 +1,1 @@
-https://mjadczyszyn.github.io/CV/
+https://mjadczyszyn.github.io/CV//index.html 
