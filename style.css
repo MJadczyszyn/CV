@@ -7,14 +7,14 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   background: white;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 aside {
-  width: 350px;
+  width: 450px;
   background: radial-gradient( circle, 
   rgba(75, 120, 231, 1) 0%, 
   rgb(49, 51, 49) 100% );
@@ -31,7 +31,7 @@ aside {
 
 .header-secondary {
   color: white;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 }
 
 .contact-links {
@@ -64,33 +64,39 @@ aside {
 }
 
 .Tech-Skills-Block {
-  margin-top: 47px;
+  margin-top: 27px;
   margin-left: 40px;
 }
 
 .Soft-Skills-Block {
-  margin-top: 47px;
+  margin-top: 27px;
   margin-left: 40px;
 }
 
 main {
-  padding: 102px 88px 102px 88px;
+  padding: 50px 88px 102px 88px;
 }
 
 .main-description {
-  width: 520px;
+  width: 450px;
 }
 
 .job-title {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 20px;
+  line-height: 25px;
+  color:white;
+  text-align: center;
+
 }
 
 h1 {
   font-weight: 700;
-  font-size: 35px;
-  line-height: 55px;
+  font-size: 40px;
+  line-height: 60px;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .description {
@@ -104,6 +110,7 @@ h1 {
 .projects {
   width: 485px;
   margin-bottom: 51px;
+  margin-top: 11px;
 }
 
 .list-primary {
@@ -127,7 +134,7 @@ h1 {
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
-  margin-bottom: 12px;
+  margin-bottom: 5px;
 }
 
 .job-name {
@@ -160,6 +167,7 @@ h1 {
 
 .work-experience {
   width: 525px;
+  margin-top: 20px;
 }
 
 .school-div {
@@ -272,3 +280,43 @@ img {
   justify-content: center;
 }
 
+.klauzula-div {
+  margin-top: 100px;
+}
+
+.klauzula {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #212121;
+  margin-top: 10px;
+  margin-right: auto;
+}
+
+
+.Courses-div {
+  margin-top: 51px;
+}
+
+.Course-name {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: 10px;
+}
+
+.plan-list {
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  padding-left: 0px;
+  max-width: 500px;
+}
+
+.Hobbies-Block {
+  margin-top: 27px;
+  margin-left: 40px;
+  margin-bottom: 80px;
+}
